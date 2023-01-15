@@ -26,8 +26,8 @@ if (selected == 'Hitung Luas Persegi Panjang') :
 if(selected == 'Hitung Luas Segitiga'):
     st.title('Hitung Luas Segitiga')
 
-    alas =st.slider("Masukkan Nilai Alas",0,100)
-    tinggi =st.slider("Masukkan Nilai Tinggi",0,100)
+    alas =st.number_input("Masukkan Nilai Alas",0)
+    tinggi =st.number_input("Masukkan Nilai Tinggi",0)
     hitung =st.button ("Hitung Luas")
             
     if hitung :
